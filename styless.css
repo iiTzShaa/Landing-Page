@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+
+    display: flex;
+    flex-direction:column;
+    margin: 0%;
+    min-height:100vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.header-main-wrap{
+    background-color: #1f2937;
+}
+.headr{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.sitelogo{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    left: 10%;
+}
+
+.head-links{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    position: absolute;
+    right: 10%;
+    height: 200px;
+}
+
+.head-links li {
+    display: inline;
+}
+
+.head-links a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.Main{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+ 
+
+}
+.ye-card{
+    align-self: center;
+    margin-right: 20px;
+}
+
+h1
+{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.mainimg
+{
+    height: 500px;
+    width: auto;
+
+}
+
+.main-text{
+    color: #e5e7eb;
+}
+
+.Join-us{
+    background-color:#3882F6;
+    color: #e5e7eb;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
