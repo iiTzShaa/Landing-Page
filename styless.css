@@ -35,7 +35,7 @@ body{
     gap: 10px;
     position: absolute;
     right: 10%;
-    height: 200px;
+    
 }
 
 .head-links li {
@@ -88,3 +88,34 @@ h1
     border: 0;
 }
 
+.wreapped-cards{
+    margin: 100px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-images{
+height: 200px;
+width: 200x;
+margin: 200x;
+border-radius: 20px;
+border: solid #3882F6;
+
+}
+
+.cards-text{
+    text-align: center;
+    margin-top: 15px;
+}
